@@ -37,7 +37,7 @@ while True:
         if leitura_btn != estado_btn_valido:
             estado_btn_valido = leitura_btn
 
-            if estado_btn_valido == 0:
+            if estado_btn_valido == 1:
                 contador = 0
                 estado_bloqueado = False
                 alerta_emitido = False
